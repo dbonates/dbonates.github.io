@@ -26,16 +26,21 @@
 <script>
 	function openVideo() {
 		$('#video-overlay').css('display','block');
-		// $('#video-overlay').get(0).play();
+		$('#video1').get(0).play();
 		
-		$('.close').click(function() {
+		$('#close').click(function() {
+			stopVideo();
 			$('#video-overlay').css('display','none');
 		});
 	}
 
+	function stopVideo() {
+		$('#video1').get(0).pause();
+	}
+
 	function openVideo2() {
 		$('#video-overlay').css('display','block');
-		// $('#video-overlay').get(0).play();
+		$('#video1').get(0).play();
 		
 		$('.close').click(function() {
 			$('#video-overlay').css('display','none');
@@ -198,8 +203,8 @@
 
 
 	<div id="video-overlay">
-		<video src="videos/bhg01.mp4" controls></video>
-		<div class="close">[ Fechar ]</div>
+		<video id="video1" src="videos/bhg01.mp4" controls="true"></video>
+		<div id="close">[ Fechar ]</div>
 	</div>
 
 	<div id="video-overlay2">
