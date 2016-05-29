@@ -25,13 +25,23 @@
 <body>
 <script>
 	function openVideo() {
-			$('#video-overlay').css('display','block');
-			// $('#video-overlay').get(0).play();
-			
-			$('.close').click(function() {
-				$('#video-overlay').css('display','none');
-			});
-		}
+		$('#video-overlay').css('display','block');
+		// $('#video-overlay').get(0).play();
+		
+		$('.close').click(function() {
+			$('#video-overlay').css('display','none');
+		});
+	}
+
+	function openVideo2() {
+		$('#video-overlay').css('display','block');
+		// $('#video-overlay').get(0).play();
+		
+		$('.close').click(function() {
+			$('#video-overlay').css('display','none');
+		});
+	}
+
 </script>
 	<!-- Main container -->
 	<div class="container">
@@ -188,7 +198,12 @@
 
 
 	<div id="video-overlay">
-		<video src="videos/zoom.mp4" controls></video>
+		<video src="videos/bhg01.mp4" controls></video>
+		<div class="close">[ Fechar ]</div>
+	</div>
+
+	<div id="video-overlay2">
+		<video src="videos/bhg02.mp4" controls></video>
 		<div class="close">[ Fechar ]</div>
 	</div>
 
