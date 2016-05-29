@@ -303,7 +303,7 @@ body #cdawrap a:hover.carbon-poweredby {
 }
 
 #video-overlay .close {
-	background-color: #000;
+	background-color: rgba(0,0,0,0.75);
 	padding: 10px;
 	border-radius: 10px;
 	position: absolute;
