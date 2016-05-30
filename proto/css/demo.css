@@ -285,7 +285,7 @@ body #cdawrap a:hover.carbon-poweredby {
 	display: none;
 }
 
-#video-overlay {
+#video-overlay, #video-overlay2 {
 
 	background-color: rgba(0,0,0,0.75);
 	position: absolute;
@@ -302,7 +302,22 @@ body #cdawrap a:hover.carbon-poweredby {
 	width: 100%;
 }
 
+#video-overlay2 video {
+	width: 100%;
+}
+
 #video-overlay #close {
+	background-color: rgba(0,0,0,0.75);
+	padding: 10px;
+	border-radius: 10px;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#video-overlay2 #close2 {
 	background-color: rgba(0,0,0,0.75);
 	padding: 10px;
 	border-radius: 10px;

@@ -38,12 +38,17 @@
 		$('#video1').get(0).pause();
 	}
 
+	function stopVideo2() {
+		$('#video2').get(0).pause();
+	}
+
 	function openVideo2() {
-		$('#video-overlay').css('display','block');
-		$('#video1').get(0).play();
-		
-		$('.close').click(function() {
-			$('#video-overlay').css('display','none');
+		$('#video-overlay2').css('display','block');
+		$('#video2').get(0).play();
+
+		$('#close2').click(function() {
+			stopVideo2();
+			$('#video-overlay2').css('display','none');
 		});
 	}
 
@@ -208,8 +213,8 @@
 	</div>
 
 	<div id="video-overlay2">
-		<video src="videos/bhg02.mp4" controls></video>
-		<div class="close">[ Fechar ]</div>
+		<video id="video2"  src="videos/bhg02.mp4" controls></video>
+		<div id="close2">[ Fechar ]</div>
 	</div>
 
 
