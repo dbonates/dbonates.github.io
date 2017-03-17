@@ -1,7 +1,9 @@
 # Daniel Bonates
 > iOS Software Engineer at Peixe Urbano
 > daniel@bonates.com
+<br>
 > **Web**: [bonates.com](http://bonates.com)
+<br>
 > **Github**: [github.com/dbonates](https://github.com/dbonates)
 
 [Download this page as PDF](http://bonates.com/cv/danielbonates-cv-2017.pdf)
